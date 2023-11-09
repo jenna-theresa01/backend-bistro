@@ -25,3 +25,9 @@
     - Read: view fill list of menu item information
 - Build more routes as needed for your project if you finish early (Create, Read, Update, Delete)
 
+#### Initial Pseudocode
+
+- get started with the pivot table/database
+    - need to create a menu within a table in order to use if for the project
+- 
+
