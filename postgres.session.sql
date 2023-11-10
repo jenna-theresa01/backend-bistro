@@ -51,12 +51,12 @@ VALUES (
         cuisine_id
     )
 VALUES (
-        'Spaghetti Carbonara',
-        'A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper.',
-        13.99,
-        1,
+        'Pad Thai',
+        'A popular Thai stir-fried noodle dish with shrimp, tofu, peanuts, and tamarind sauce.',
+        11.99,
+        3,
         4,
-        1
+        3
     );
 
     INSERT INTO menu (
@@ -68,12 +68,12 @@ VALUES (
         cuisine_id
     )
 VALUES (
-        'Spaghetti Carbonara',
-        'A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper.',
-        13.99,
+        'Hamburger',
+        'A classic American burger with a juicy patty, lettuce, tomato, and cheese.',
+        9.99,
         1,
         4,
-        1
+        2
     );
 
     INSERT INTO menu (
@@ -85,10 +85,11 @@ VALUES (
         cuisine_id
     )
 VALUES (
-        'Spaghetti Carbonara',
-        'A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper.',
-        13.99,
+        'Sushi Sashimi Combo',
+        'A Japanese platter with assorted sushi and sashimi slices served with pickled ginger and soy sauce.',
+        22.99,
         1,
-        4,
-        1
+        3,
+        5
     );
+    
