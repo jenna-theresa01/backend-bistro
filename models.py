@@ -38,8 +38,8 @@ class Menu(Base):
     spicy_level: Mapped[int] = Column(Integer, default="Spicy Level")
 
     # is this where I need to put the foreign keys for cuisine and category?
-    category_id: Mapped[int] = Column(ForeignKey("category.id"))
-    cuisine_id: Mapped[int] = Column(ForeignKey("cuisine.id"))
+    category: Mapped[Category] = Column(ForeignKey("category.id"))
+    cuisine: Mapped[Cuisine] = Column(ForeignKey("cuisine.id"))
 
 
 

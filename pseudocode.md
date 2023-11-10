@@ -2,7 +2,7 @@
 
 ### Basic Requirements
 
-1. Store the following data in your PostgreSQL database and implement models for the READ only operations for the following data:
+1. Store the following data in your PostgreSQL database and implement models for the READ only operations for the following data: (GOT IT)
     - Menu Items
         - Title
         - Description
@@ -13,7 +13,7 @@
     - Category (appetizer, dessert, main dish, etc)
     - Cuisine (american, thai, etc)
 
-2. Create endpoints to send JSON data back to get a GET request for a list of all menu items with the category and cuisine labels nested in the data
+2. Create endpoints to send JSON data back to get a GET request for a list of all menu items with the category and cuisine labels nested in the data (technically done, but not giving me exactly what I want)
 
 3. Create routes to use the views created in the previous step
 

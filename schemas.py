@@ -16,12 +16,9 @@ class MenuItemModel(BaseModel):
     description: str | None
     price: int | None
     spicy_level: int | None
-    # category_id: int | None
-    # cuisine_id: int | None
+    category_id: int | None
+    cuisine_id: int | None
 
-    # def __init__(self, **data):
-    #     super().__init__(**data)
-    #     self.menu = self.menu or []
 
 class Config:
     from_menu = True
